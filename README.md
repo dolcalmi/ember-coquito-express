@@ -1,6 +1,6 @@
 # Ember client for Coquito Express
 
-Just a client for [Coquito Express](https://github.com/dolcalmi/coquito-express).
+Ember client for [Coquito Express](https://github.com/dolcalmi/coquito-express).
 
 ## Features
 
@@ -11,6 +11,7 @@ Just a client for [Coquito Express](https://github.com/dolcalmi/coquito-express)
 
 You will need the following things properly installed on your computer.
 
+* [Coquito Express](https://github.com/dolcalmi/coquito-express) Running.
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
 * [Bower](http://bower.io/)
@@ -26,6 +27,7 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
+* [Coquito Express](https://github.com/dolcalmi/coquito-express) must be running on http://localhost:3000/
 * `ember server`
 * Visit your app at [http://localhost:4300](http://localhost:4300).
 
