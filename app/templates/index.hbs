@@ -1,0 +1,26 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>{{t "index.firstName"}}</th>
+            <th>{{t "index.lastName"}}</th>
+            <th>{{t "index.email"}}</th>
+            <th>{{t "index.status"}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each model as |user index|}}
+        <tr>
+            <th scope="row">{{sum index 1}}</th>
+            <td>{{user.firstName}}</td>
+            <td>{{user.lastName}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.status}}</td>
+        </tr>
+        {{else}}
+        <tr>
+            <th class="text-center" colspan="5">{{t "index.empty"}}</th>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
