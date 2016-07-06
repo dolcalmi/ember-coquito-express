@@ -1,7 +1,11 @@
-# Webclient
+# Ember client for Coquito Express
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Just a client for [Coquito Express](https://github.com/dolcalmi/coquito-express).
+
+## Features
+
+* Security by [Ember Simple Auth](https://github.com/simplabs/ember-simple-auth)
+* Validations by [Parsley](http://parsleyjs.org/)
 
 ## Prerequisites
 
@@ -15,7 +19,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone git@github.com:dolcalmi/ember-coquito-express.git`
 * change into the new directory
 * `npm install`
 * `bower install`
@@ -23,25 +27,7 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 * `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
+* Visit your app at [http://localhost:4300](http://localhost:4300).
 
 ## Further Reading / Useful Links
 
