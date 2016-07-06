@@ -6,6 +6,7 @@ Ember client for [Coquito Express](https://github.com/dolcalmi/coquito-express).
 
 * Security by [Ember Simple Auth](https://github.com/simplabs/ember-simple-auth)
 * Validations by [Parsley](http://parsleyjs.org/)
+* i18n support (english and spanish) by [Ember-I18n ](https://github.com/jamesarosen/ember-i18n)
 
 ## Prerequisites
 
